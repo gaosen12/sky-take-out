@@ -53,8 +53,6 @@ public class OrderServiceImpl implements OrderService {
     private UserMapper userMapper;
     @Autowired
     private WeChatPayUtil weChatPayUtil;
-    @Autowired
-
     /**
      * 用户下单
      * @param ordersSubmitDTO

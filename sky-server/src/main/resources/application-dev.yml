@@ -16,7 +16,6 @@ sky:
     port: 6379
     password: gaosen123
     database: 10
-
   wechat:
     appid: wx0e477b09b902ec7e
     secret: c0a238d12c850de3d4a9edfe329542e8
