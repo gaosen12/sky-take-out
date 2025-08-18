@@ -170,6 +170,7 @@ public class ReportServiceImpl implements ReportService {
         }
 
         //计算时间区间内的订单总数量
+        //get是获取计算后的结果
         Integer totalOrderCount = orderCountList.stream().reduce(Integer::sum).get();
 
         //计算时间区间内的有效订单数量
