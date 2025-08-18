@@ -16,6 +16,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class AddressBook implements Serializable {
 
+    //不知道干啥的,没用到
     private static final long serialVersionUID = 1L;
 
     private Long id;
